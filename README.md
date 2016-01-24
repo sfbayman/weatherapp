@@ -1,4 +1,4 @@
-# ReduxSimpleStarter
+# Redux weather app
 
 ###Getting Started###
 
@@ -8,8 +8,8 @@ There are two methods for getting started with this repo.
 Checkout this repo, install depdencies, then start the gulp process with the following:
 
 ```
-	> git clone git@github.com:StephenGrider/ReduxSimpleStarter.git
-	> cd ReduxSimpleStarter
+	> git clone git@github.com:sfbayman/weatherapp.git
+	> cd weatherapp
 	> npm install
 	> npm start
 ```
