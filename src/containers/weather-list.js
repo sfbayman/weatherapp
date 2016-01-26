@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
-import WeatherDetail from '../components/weather-detail';
+import WeatherDetail from '../components/weather/weather-detail';
 
 
 class  WeatherList extends Component {
@@ -16,7 +16,11 @@ class  WeatherList extends Component {
 					</tr>
 				</thead>
 				<tbody>
+<<<<<<< Updated upstream
 					{this.props.weather.map((cityData, index)=>{
+=======
+					{this.props.weather.map((cityData,index)=>{
+>>>>>>> Stashed changes
 						return(
 							 <WeatherDetail key={index} cityData={cityData} />
 							);

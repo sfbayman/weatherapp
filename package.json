@@ -1,9 +1,9 @@
 {
   "name": "redux-simple-starter",
   "version": "1.0.0",
-  "description": "Simple starter package for Redux with React and Babel support",
+  "description": "Redux app - react-redux",
   "main": "index.js",
-  "repository": "git@github.com:StephenGrider/ReduxSimpleStarter.git",
+  "repository": "git@github.com:sfbayman/weatherapp.git",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
   },
@@ -20,6 +20,7 @@
   "dependencies": {
     "axios": "^0.9.0",
     "babel-preset-stage-1": "^6.1.18",
+    "c3-react": "^0.1.13",
     "lodash": "^3.10.1",
     "react": "^0.14.3",
     "react-dom": "^0.14.3",

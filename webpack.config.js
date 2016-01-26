@@ -1,6 +1,6 @@
 module.exports = {
   entry: [
-    './src/index.js'
+    './src/portal.js'
   ],
   output: {
     path: __dirname,
@@ -19,5 +19,6 @@ module.exports = {
   devServer: {
     historyApiFallback: true,
     contentBase: './'
-  }
+  },
+  devtool: "#inline-source-map"
 };
