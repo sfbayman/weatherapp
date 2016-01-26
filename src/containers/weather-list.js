@@ -16,11 +16,7 @@ class  WeatherList extends Component {
 					</tr>
 				</thead>
 				<tbody>
-<<<<<<< Updated upstream
 					{this.props.weather.map((cityData, index)=>{
-=======
-					{this.props.weather.map((cityData,index)=>{
->>>>>>> Stashed changes
 						return(
 							 <WeatherDetail key={index} cityData={cityData} />
 							);
