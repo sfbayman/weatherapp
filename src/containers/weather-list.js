@@ -16,9 +16,9 @@ class  WeatherList extends Component {
 					</tr>
 				</thead>
 				<tbody>
-					{this.props.weather.map((cityData)=>{
+					{this.props.weather.map((cityData, index)=>{
 						return(
-							 <WeatherDetail key={cityData.name} cityData={cityData} />
+							 <WeatherDetail key={index} cityData={cityData} />
 							);
 					})}
 				</tbody>
